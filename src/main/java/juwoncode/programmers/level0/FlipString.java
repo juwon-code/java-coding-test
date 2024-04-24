@@ -33,4 +33,10 @@ public class FlipString {
 
         return String.join("", strings);
     }
+
+    public static String solution(String string) {
+        StringBuilder sb = new StringBuilder(string);
+
+        return sb.reverse().toString();
+    }
 }
